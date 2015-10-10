@@ -25,7 +25,7 @@ namespace Homework4
                         continue;
                     }
                 }
-                Console.WriteLine(type.Name + " " + propertyInfo.Name);
+                Console.WriteLine(propertyInfo.GetValue(obj));
                 Console.ForegroundColor = defaultColor;
             }
         }
